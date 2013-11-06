@@ -1,0 +1,19 @@
+doctype 5
+html
+  head
+
+    title= title
+    link(rel='stylesheet', href='/vendor/bootstrap/dist/css/bootstrap.css')
+    link(rel='stylesheet', href='/compiled/style.css')
+
+  body
+    block content
+
+    // library scripts
+    script(src='/vendor/jquery/jquery.min.js')
+    script(src='/vendor/bootstrap/dist/js/bootstrap.min.js')
+    script(src='/vendor/handlebars/handlebars.js')
+    script(src='/vendor/ember/ember.js')
+
+    // ember application
+    script(src='/frontend/app.js')
