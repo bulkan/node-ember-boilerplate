@@ -1,0 +1,22 @@
+{
+  "name": "node-ember-boiler",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Bulkan Evcimen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bulkan/node-ember-boiler"
+  },
+  "bugs": {
+    "url": "https://github.com/bulkan/node-ember-boiler/issues"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "express": "3.2.6",
+    "stylus": "*",
+    "jade": "~0.35.0"
+  }
+}

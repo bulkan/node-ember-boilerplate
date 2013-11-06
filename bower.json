@@ -1,0 +1,22 @@
+{
+  "name": "node-ember-boiler",
+  "version": "0.0.0",
+  "authors": [
+    "Bulkan Evcimen <bulkan@gmail.com>"
+  ],
+  "description": "Node.js & Ember boilerplate app",
+  "license": "MIT",
+  "homepage": "https://github.com/bulkan/node-ember-boiler",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember": "~1.1.2",
+    "bootstrap": "~3.0.1"
+  }
+}
