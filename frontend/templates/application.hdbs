@@ -1,0 +1,2 @@
+<h1>Node Ember Boiler</h1>
+{{outlet}}
