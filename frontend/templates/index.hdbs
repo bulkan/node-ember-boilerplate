@@ -1,0 +1,7 @@
+<div class='index'>
+
+  <p>
+    {{#linkTo "todo"}}View Tasks{{/linkTo}}
+  </p>
+
+</div>

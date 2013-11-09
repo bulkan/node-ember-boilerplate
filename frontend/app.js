@@ -6,3 +6,8 @@ App = Ember.Application.create({
   LOG_VERSION: true,
   debugMode: true
 });
+
+
+App.Router.map(function(){
+  this.resource('todo');
+});
