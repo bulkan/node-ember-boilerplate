@@ -24,7 +24,7 @@ app.configure(function() {
   app.use(express.session({secret: "secret key"}));
 
   app.use(stylus.middleware({ 
-      src : path.join(__dirname, '/public/stylesheets'),
+      src : path.join(__dirname, '/frontend/stylesheets'),
       dest: path.join(__dirname, '/public/compiled')
     }
   ));
