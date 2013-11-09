@@ -1,4 +1,4 @@
-App = Ember.Application.create({
+window.App = Ember.Application.create({
   LOG_TRANSITIONS: true,
   LOG_BINDINGS: true,
   LOG_VIEW_LOOKUPS: true,
@@ -8,6 +8,13 @@ App = Ember.Application.create({
 });
 
 
+
 App.Router.map(function(){
-  this.resource('todo');
+  this.resource('tasks', function(){
+    this.resource('task', {path: '/:task_id'}, function(){
+      this.route('edit');
+    });
+
+    this.route('create');
+  });
 });

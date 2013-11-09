@@ -1,7 +1,7 @@
 <div class='index'>
 
   <p>
-    {{#linkTo "todo"}}View Tasks{{/linkTo}}
+    {{#link-to "tasks"}}View Tasks{{/link-to}}
   </p>
 
 </div>

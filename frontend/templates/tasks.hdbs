@@ -1,0 +1,5 @@
+<ul class='tasks'>
+  {{#each task in controller}}
+    <li>{{task.title}}</li>
+  {{/each}}
+</ul>

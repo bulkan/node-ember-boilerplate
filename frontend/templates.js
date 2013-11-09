@@ -1,6 +1,7 @@
 templates = [
   'application.hdbs',
-  'index.hdbs'
+  'index.hdbs',
+  'tasks.hdbs'
 ]
 
 /*

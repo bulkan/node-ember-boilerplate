@@ -16,7 +16,11 @@
     "tests"
   ],
   "dependencies": {
-    "ember": "~1.1.2",
-    "bootstrap": "~3.0.1"
+    "bootstrap": "~3.0.1",
+    "ember-data-shim": "~0.0.14",
+    "ember": "~1.1.2"
+  },
+  "resolutions": {
+    "ember": "~1.1.2"
   }
 }
