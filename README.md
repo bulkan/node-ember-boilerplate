@@ -16,3 +16,12 @@ Usage
 * install `bower` if you don't have it already then run `bower install`
 * run `npm install`
 * modify code
+
+
+Structure
+=========
+
+`index.html` to load all the dependencies.
+
+There is a single `resource` called `tasks` for a simple _Todo_ task management.
+
