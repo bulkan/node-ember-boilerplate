@@ -2,7 +2,8 @@ var express  = require('express')
   , path     = require('path')
   , jade     = require('jade')
   , stylus   = require('stylus')
-  , routes   = require('./backend/routes');
+  , routes   = require('./backend/routes')
+  , tasks    = require('./backend/routes/tasks');
 
 
 var app = express();
@@ -35,6 +36,9 @@ app.configure(function() {
 })
 
 //app.get('/',routes.index);
+
+app.get('/tasks', tasks.index)
+
 
 app.listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

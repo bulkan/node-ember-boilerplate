@@ -1,6 +1,6 @@
 App.Task = DS.Model.extend({
-  title : DS.attr(),
-  done  : DS.attr()
+  title : DS.attr('string'),
+  done  : DS.attr('boolean')
 });
 
 App.Task.FIXTURES = [{
