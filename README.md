@@ -1,4 +1,4 @@
-node-ember-boiler - Boilerplate Node.js / Ember application
+Boilerplate Node.js / Ember application
 ===========================================================
 
 
