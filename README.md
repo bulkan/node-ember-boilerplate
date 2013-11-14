@@ -1,8 +1,7 @@
 Boilerplate Node.js / Ember application
-===========================================================
+=======================================
 
-
-Application structure for using `Node.js` on the backend and `Ember` on the frontend.
+Basic application structure for using `Node.js` on the backend and `Ember` on the frontend.
 
 `Bower` is used to handle the frontend dependencies.
 
@@ -23,5 +22,6 @@ Structure
 
 `index.html` to load all the dependencies.
 
-There is a single `resource` called `tasks` for a simple _Todo_ task management.
+`templates.js` that syncronously loads in Handlebars templates. This will change in the future.
 
+There is a single `resource` called `tasks` for a simple _Todo_ task management.
