@@ -1,6 +1,5 @@
 var express  = require('express')
   , path     = require('path')
-  , jade     = require('jade')
   , stylus   = require('stylus')
   , routes   = require('./backend/routes')
   , tasks    = require('./backend/routes/tasks');
@@ -12,12 +11,6 @@ app.configure(function() {
   // all environments
   app.set('port', process.env.PORT || 8080);
 
-  app.engine('.jade', jade.__express);
-
-  app.set('view engine', 'jade');
-  app.set('views', path.join(__dirname, '/backend/views'));
-
-  app.use(express.favicon());
   app.use(express.logger('dev'));
   app.use(express.cookieParser());
   app.use(express.bodyParser());
