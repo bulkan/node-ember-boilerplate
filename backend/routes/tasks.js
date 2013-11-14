@@ -1,4 +1,8 @@
+var express = require('express')
+  , app = express();
 
+
+// Just a few task objects. This would really come from some sort of `database`
 var tasks = {
   tasks: [
     {
@@ -13,12 +17,14 @@ var tasks = {
   ]
 };
 
-module.exports.index = function(req, res){
+app.get('/tasks', function index(req, res){
   res.send(tasks);
-}
+});
 
 
-module.exports.edit = function(req, res) {
-  
+app.get('/tasks/:id', function task(req, res) {
+  res.send(tasks[req.params.id]);
+});
 
-};
+
+module.exports = app;

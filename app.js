@@ -26,11 +26,10 @@ app.configure(function() {
   app.use(app.router);
   app.use(express.static(__dirname + '/public/' ));
   app.use('/', express.static(__dirname + '/frontend/' ));
-})
+});
 
-//app.get('/',routes.index);
 
-app.get('/tasks', tasks.index)
+app.use(tasks);
 
 
 app.listen(app.get('port'), function(){
