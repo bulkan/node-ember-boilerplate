@@ -1,6 +1,8 @@
 Boilerplate Node.js / Ember application
 =======================================
 
+## work in progress
+
 Basic application structure for using `Node.js` on the backend and `Ember` on the frontend.
 
 `Bower` is used to handle the frontend dependencies.
